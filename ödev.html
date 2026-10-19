@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>odev</title>
+    </head>
+
+<style>
+    body {
+        margin: 0;
+        min-height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+table {
+    width: 370px;
+    height: 320px;  
+    border-spacing: 4px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+</style>
+
+<body>
+    <table border="2">
+        <caption>tablo</caption>
+
+        <tr>
+            <td colspan="3">1</td><td colspan="12">2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="9" colspan="3">3</td><td colspan="3" style="background-color: red;">4</td><td colspan="3" style="background-color: #B020E8;">5</td><td colspan="6" rowspan="2" style="background-color: red;">6</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="background-color: red;">7</td><td colspan="3" style="background-color: #B020E8;">8</td>
+        </tr>
+
+        <tr>
+            <td colspan="6" style="background-color: yellow;">9</td><td colspan="6" style="background-color: #B020E8;">10</td>
+        </tr>
+
+    </table>
+</body>
+</html>
